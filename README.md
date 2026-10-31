@@ -27,18 +27,29 @@ The work covers theory, EDA, preprocessing, feature engineering, **Linear / Ridg
 
 <div>
 
-<img src="https://img.shields.io/badge/Python-1D407D?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter%20Notebook-1260A8?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-4295F0?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-1D407D?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-1260A8?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/XGBoost-4295F0?style=for-the-badge&logo=xgboost&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-1D407D?style=for-the-badge&logo=plotly&logoColor=white"/>
-<img src="https://img.shields.io/badge/Seaborn-1260A8?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/SciPy-4295F0?style=for-the-badge&logo=scipy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Joblib-91C8F5?style=for-the-badge&logoColor=1D407D"/>
+<img src="https://img.shields.io/badge/Python-7440A8?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-8B5AAE?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-F05A8A?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-D94F7A?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-7440A8?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-F05A8A?style=for-the-badge&logo=xgboost&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-D94F7A?style=for-the-badge&logo=plotly&logoColor=white"/>
+<img src="https://img.shields.io/badge/Seaborn-8B5AAE?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/SciPy-7440A8?style=for-the-badge&logo=scipy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Joblib-F7A1BB?style=for-the-badge&logoColor=1D1020"/>
 
 </div>
+
+---
+
+
+## 🎬 Project Demo
+
+
+<a href="https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing">
+  <img src="https://img.shields.io/badge/WATCH%20DEMO-GOOGLE%20DRIVE-91C8F5?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=1D407D"/>
+</a>
+
 
 ---
 
