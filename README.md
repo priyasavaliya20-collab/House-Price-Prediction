@@ -1,5 +1,8 @@
 # 🏠 House Price Prediction — Supervised Learning
 
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/1bf3991a-126c-4d79-ab57-4073b55470d8" />
+
+
 ---
 
 ## 📄 Problem Statement
@@ -52,19 +55,14 @@ The work covers theory, EDA, preprocessing, feature engineering, **Linear / Ridg
 
 ---
 
-## 🧠 Step 1: Problem Framing & Theory
 
-| Topic | Key Idea |
-|-------|----------|
-| 📌 Regression vs Classification | Regression predicts a **number** (EMI amount, crop yield); classification predicts a **category** (loan default, spam) |
-| 📌 Simple vs Multiple vs Regularised | One feature → many features → many features **with a penalty** (Ridge L2 shrinks, Lasso L1 can zero out) |
-| 📌 Overfitting vs Underfitting | Overfit = high train, low test score. Underfit = both low. L1/L2 penalties keep the model simple |
-| 📌 RMSE, MAE, R² | MAE = average error, RMSE = punishes big errors more, R² = variance explained |
-| 📌 k-Fold CV | Every fold is tested once; the average score does not depend on one lucky split |
 
----
+## 🧬 Step 2: Dataset Loading & Exploratory Data Analysis
 
-## 🧬 Step 2: Dataset Loading & EDA
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/c66e4b82-0b06-4dad-a16b-7293a138d1ac" />
+
+
+
 
 ### 2.1 Load & Understand
 
@@ -108,7 +106,12 @@ df[(df['GrLivArea'] > 4000) & (df['SalePrice'] < 300000)]
 
 ---
 
-## 🔧 Step 3: Data Preprocessing & Feature Engineering
+## 🔧 Step 3:  Data Preprocessing & Feature Engineering
+
+
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/9daa65f8-b175-4b28-a4f6-693b50805f41" />
+
+
 
 ### 3.1 Missing Values
 
@@ -166,7 +169,12 @@ X_train_p = preprocessor.fit_transform(X_train)     # fit on train only
 
 ---
 
-## 📐 Step 4: Linear, Ridge & Lasso
+## 📐 Step 4: Regression Models — Linear, Ridge & Lasso
+
+
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/b1c3ef3b-6cba-46c4-97f1-0aee2079b552" />
+
+
 
 *All metrics are calculated after `expm1()`, so they are in USD.*
 
@@ -196,7 +204,12 @@ LassoCV(alphas=[0.0001, 0.001, 0.01, 0.1, 1], max_iter=10000)   # best alpha = 0
 
 ---
 
-## 🌳 Step 5: Random Forest & XGBoost
+## 🌳 Step 5: Advanced Models — Random Forest & XGBoost Regressor
+
+
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/39e4721a-0b73-4b2e-a7df-cd5c289f1d96" />
+
+
 
 ### 5.1 Random Forest Regressor
 
@@ -236,6 +249,11 @@ RandomizedSearchCV(XGBRegressor(random_state=42), params, n_iter=20, cv=3,
 
 ## 📈 Step 6: Model Evaluation & Comparison
 
+
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/6fb27343-3259-43e2-af46-0ff885a28649" />
+
+
+
 | Model | RMSE ($) | MAE ($) | R² | CV RMSE (log) | Train Time (s) |
 |-------|---------:|--------:|---:|--------------:|---------------:|
 | Linear Regression | 22,646 | 15,800 | 0.9072 | 0.1336 | 0.11 |
@@ -249,7 +267,11 @@ RandomizedSearchCV(XGBRegressor(random_state=42), params, n_iter=20, cv=3,
 
 ---
 
-## 🔍 Step 7: Residual Analysis & Interpretation
+## 🔍 Step 7: Residual Analysis & Model Interpretation
+
+
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/85c9c4cf-4075-4c07-afac-d8b86e8c9b87" />
+
 
 ### 7.1 Residual Plots
 
@@ -284,6 +306,11 @@ pd.Series(best_model.feature_importances_, index=feature_names).nlargest(5)
 ---
 
 ## 🚀 Step 8: Pipeline & Deployment
+
+
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/6c521343-7e6f-4656-b85e-8f3f88c81606" />
+
+
 
 ```python
 final_pipeline = Pipeline([('preprocessing', preprocessor), ('model', best_model)])
