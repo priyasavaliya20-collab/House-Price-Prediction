@@ -45,9 +45,8 @@ The work covers theory, EDA, preprocessing, feature engineering, **Linear / Ridg
 
 ## 🎬 Project Demo
 
-
 <a href="https://drive.google.com/file/d/1oD4nGN8-yN_oPSTUD4Knz48nX6V0lk5o/view?usp=sharing">
-  <img src="https://img.shields.io/badge/WATCH%20DEMO-GOOGLE%20DRIVE-91C8F5?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=1D407D"/>
+  <img src="https://img.shields.io/badge/WATCH%20DEMO-GOOGLE%20DRIVE-F05A8A?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=7440A8"/>
 </a>
 
 
