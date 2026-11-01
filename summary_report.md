@@ -1,6 +1,20 @@
 # Summary Report - House Price Prediction
 
 ## Business Problem & Dataset
+
+
+
+
+
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/c500fb29-8539-40e4-96bd-ab8c938a4651" />
+
+
+
+
+
+
+
+
 A PropTech startup (like NoBroker / MagicBricks) wants an automatic house price estimator. I used the Ames Housing dataset (`train.csv`, 1,460 houses, 79 features) and built a regression model to predict `SalePrice`.
 
 ## Preprocessing & Feature Engineering
